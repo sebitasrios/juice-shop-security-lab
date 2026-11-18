@@ -1,0 +1,40 @@
+﻿# Credenciales y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Maquinas virtuales
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.vbox
+*.vbox-prev
+*.sav
+
+# Registros y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Datos persistentes
+wazuh-data/
+opensearch-data/
+docker-volumes/
+
+# Python
+__pycache__/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
